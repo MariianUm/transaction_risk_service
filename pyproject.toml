@@ -1,25 +1,2 @@
-[tool.poetry]
-name = "transaction-risk-service"
-version = "0.1.0"
-description = ""
-authors = ["yuramishin <robothot@yandex.ru>"]
-readme = "README.md"
-
 [tool.poetry.dependencies]
-python = "^3.12"
-fastapi = "^0.115.12"
-sqlalchemy = "^2.0.40"
-alembic = "^1.15.2"
-dynaconf = "^3.2.10"
-pydantic = {extras = ["email"], version = "^2.11.4"}
-asyncpg = "^0.30.0"
-uvicorn = "^0.34.2"
-passlib = "^1.7.4"
-itsdangerous = "^2.2.0"
-python-multipart = "^0.0.20"
-bcrypt = "^4.3.0"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+python-json-logger = "^2.0.7"
